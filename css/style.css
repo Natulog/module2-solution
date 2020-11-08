@@ -1,0 +1,199 @@
+/********** Base styles **********/
+* {
+	box-sizing: border-box;
+	background-color:  #0e3b5c;
+	font-family: Tahoma, Geneva, sans-serif;
+
+}
+h1 {
+ 	margin-bottom: 15px;
+ 	text-align: center;
+ 	color: black;
+ 	font-weight: bold;
+ 	font-size: 28px;
+ 	background-color: #5e4f6d;
+}
+
+section {
+	margin: 10px;
+
+}
+
+section {
+	position: relative;
+ 	border: 1px solid black;
+ 	height: 100%;
+
+}
+
+
+h2 {
+	position: absolute;
+	background-color:#5e4f6d;
+	border: 1px solid black;
+	margin: 0;
+	top:0;
+	right: 0;
+	padding: 5px;
+	color: white;
+	text-align: right;
+	font-size: 20px;
+}
+
+p {
+	margin: 35px 5% 2% 5%;
+	padding: 3px;
+ 	width: 95%;
+ 	height: 95%;
+	font-size: 16px;
+
+}
+
+
+
+.MenuItem1 {
+	background-color:#d8897b;
+}
+.MenuItem2 {
+	background-color:#f4ac7b;
+}
+.MenuItem3 {
+	background-color:#9f6671;
+}
+
+
+
+/* Simple Responsive Framework. */
+.row {
+	width: 100%;
+}
+
+/********** Desktop device **********/
+@media (min-width: 992px) {
+  .col-dsktp-1, .col-dsktp-2, .col-dsktp-3, .col-dsktp-4, .col-dsktp-5, .col-dsktp-6, .col-dsktp-7, .col-dsktp-8, .col-dsktp-9, .col-dsktp-10, .col-dsktp-11, .col-dsktp-12 {
+    float: left;
+
+  }
+  .col-dsktp-1 {
+    width: 8.33%;
+  }
+  .col-dsktp-2 {
+    width: 16.66%;
+  }
+  .col-dsktp-3 {
+    width: 25%;
+  }
+  .col-dsktp-4 {
+    width: 33.33%;
+  }
+  .col-dsktp-5 {
+    width: 41.66%;
+  }
+  .col-dsktp-6 {
+    width: 50%;
+  }
+  .col-dsktp-7 {
+    width: 58.33%;
+  }
+  .col-dsktp-8 {
+    width: 66.66%;
+  }
+  .col-dsktp-9 {
+    width: 74.99%;
+  }
+  .col-dsktp-10 {
+    width: 83.33%;
+  }
+  .col-dsktp-11 {
+    width: 91.66%;
+  }
+  .col-dsktp-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tbl-1, .col-tbl-2, .col-tbl-3, .col-tbl-4, .col-tbl-5, .col-tbl-6, .col-tbl-7, .col-tbl-8, .col-tbl-9, .col-tbl-10, .col-tbl-11, .col-tbl-12 {
+    float: left;
+
+  }
+  .col-tbl-1 {
+    width: 8.33%;
+  }
+  .col-tbl-2 {
+    width: 16.66%;
+  }
+  .col-tbl-3 {
+    width: 25%;
+  }
+  .col-tbl-4 {
+    width: 33.33%;
+  }
+  .col-tbl-5 {
+    width: 41.66%;
+  }
+  .col-tbl-6 {
+    width: 50%;
+  }
+  .col-tbl-7 {
+    width: 58.33%;
+  }
+  .col-tbl-8 {
+    width: 66.66%;
+  }
+  .col-tbl-9 {
+    width: 74.99%;
+  }
+  .col-tbl-10 {
+    width: 83.33%;
+  }
+  .col-tbl-11 {
+    width: 91.66%;
+  }
+  .col-tbl-12 {
+    width: 100%;
+  }
+}
+/********** Phone devices **********/
+@media (max-width: 767px) {
+  .col-phn-1, .col-phn-2, .col-phn-3, .col-phn-4, .col-phn-5, .col-phn-6, .col-phn-7, .col-phn-8, .col-phn-9, .col-phn-10, .col-phn-11, .col-phn-12 {
+    float: left;
+  }
+  .col-phn-1 {
+    width: 8.33%;
+  }
+  .col-phn-2 {
+    width: 16.66%;
+  }
+  .col-phn-3 {
+    width: 25%;
+  }
+  .col-phn-4 {
+    width: 33.33%;
+  }
+  .col-phn-5 {
+    width: 41.66%;
+  }
+  .col-phn-6 {
+    width: 50%;
+  }
+  .col-phn-7 {
+    width: 58.33%;
+  }
+  .col-phn-8 {
+    width: 66.66%;
+  }
+  .col-phn-9 {
+    width: 74.99%;
+  }
+  .col-phn-10 {
+    width: 83.33%;
+  }
+  .col-phn-11 {
+    width: 91.66%;
+  }
+  .col-phn-12 {
+    width: 100%;
+  }
+}
